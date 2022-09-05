@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'News Cycle', sans-serif;
+}
+
+    .Logo {
+    width: 200px;
+    }
+
+    a:hover {
+    color: #c6414c !important;
+    transition: all .4s ease;
+    }
+
+    .nav-item {
+    padding: 0px 20px;
+    }
+
+    .nav-link {
+    font-family: 'News Cycle', sans-serif;
+    }
+
+    .login-link {
+    background-color: #c6414c !important;
+    color: white !important;
+    border-radius: 50px !important;
+    width: 10%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'News Cycle', sans-serif;
+    }
+
+    .login-link:hover {
+    color: white !important;
+    }
+
+    h2{
+    margin-top: 85px !important;
+    color: #c6414c;
+    }
+    form{
+    box-shadow: 0PX 0PX 9PX rgba(0, 0, 0, 26);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 4.5em;
+    border-radius: 10px;
+    }
+
+.btn{
+    background-color: #c6414c !important;
+    color: white !important;
+    padding: 14px 20px !important;
+    border: none !important;
+    cursor: pointer;
+    width: 35%;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    border-radius: 8px !important;
+    margin-top: 30px !important;
+}
+form h6{
+    font-size: 28px;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: bold;
+    color: #c6414c !important;
+}
+.check0{
+    font-size: 20px;
+    padding-right: 18px;
+}
+
+.date {
+    width: 37%;
+    padding: 3px 5px;
+}
+.form-check-input[type=checkbox] {
+    border-radius: 0.25em;
+    margin-top: 10px !important;
+}
+
+.form-check-label{
+    padding-top: 5px;
+    font-size: 17px;
+    font-weight: 500px !important;
+    text-align: center!important;
+}
+
+.form-check-input:focus {
+    box-shadow: none !important;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 425px) And (max-width: 450px){ 
+    body{
+    background: #f3f3f3 !important;
+    background-image: none;
+    } 
+    form{
+    width: 400PX;
+    height: 465px;
+    margin: 0px auto; 
+    }
+    h2{
+    font-size: 30px !important; 
+    text-align: center;
+    margin-bottom: 45px !important;
+    }
+    }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .login-link{
+    width: 20%;
+    }
+    body{
+    background: #f3f3f3 !important;
+    background-image: none;
+    } 
+    form{
+    width: 450PX;
+    height: 485px;
+    margin: 0px auto; 
+    }
+    h2{
+    font-size: 32px !important; 
+    text-align: center;
+    margin-bottom: 60px !important;
+    }
+    }
+    
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) { 
+    .login-link{
+    width: 20%;
+    }
+    body{
+    background: #f3f3f3 !important;
+    background-image: none;
+    } 
+    form{
+    width: 450PX;
+    height: 485px;
+    margin: 0px auto; 
+    }
+    h2{
+    font-size: 34px !important; 
+    text-align: center;
+    margin-bottom: 60px !important;
+    }
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) { 
+    body{
+    background-image: url("./Form.jpeg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    }                
+    .login-link{
+    width: 20%;
+    }
+    form{
+    width: 450PX;
+    height: 485px;
+    margin-left: 53%; 
+    }
+    h2{
+    text-align: left !important;
+    font-size: 34px !important; 
+    margin-bottom: 1rem !important;
+    margin-left: 36px !important;
+    }
+    }
+    
+    /* X-Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) { 
+    .login-link{
+    width: 16%;
+    }
+    form{
+    width: 510PX;
+    height: 490px;
+    margin-left: 55%; 
+    border-radius: 10px;
+    }
+    h2{
+    font-size: 36px !important; 
+    margin-left: 125px !important;
+    }
+    }
+    
+    /* XX-Large devices (larger desktops, 1400px and up) */
+    @media (min-width: 1400px) {  
+    .login-link{
+    width: 14%;
+    }
+    h2{
+    font-size: 38px !important; 
+    margin-left: 225px !important;
+    }
+    }
